@@ -16,11 +16,7 @@ gulp.task("monitorar-arquivos", function () {
 });
 
 /*
- * 
- */
-
-/*
- * 1. Produta pelo arquivo index.html na pasta source;
+ * 1. Procura pelo arquivo index.html na pasta source;
  * 2. O minifica através do plugin gulp-minify-html-2;
  * 3. Move o arquivo minificado para a pasta dist. 
  */
